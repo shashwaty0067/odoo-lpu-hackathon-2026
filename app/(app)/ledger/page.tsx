@@ -8,7 +8,7 @@
 
 import { useState, useEffect, useCallback, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
-import { getStockLedger, getProducts, getAllLocations } from "@/lib/api-mock";
+import { getStockLedger, getProducts, getAllLocations } from "@/lib/api";
 import { StockLedgerEntry, OperationType, Product, Location, Warehouse } from "@/lib/types";
 import {
   PageHeader, TableSkeleton, EmptyState, ErrorState, inputClass, selectClass,

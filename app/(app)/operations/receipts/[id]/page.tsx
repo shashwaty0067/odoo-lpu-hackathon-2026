@@ -7,7 +7,7 @@
 
 import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { getReceipt, validateReceipt, cancelReceipt } from "@/lib/api-mock";
+import { getReceipt, validateReceipt, cancelReceipt } from "@/lib/api";
 import { Receipt } from "@/lib/types";
 import { StatusBadge } from "@/components/ui/status-badge";
 import { ConfirmDialog } from "@/components/ui/confirm-dialog";

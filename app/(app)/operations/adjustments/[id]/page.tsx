@@ -7,7 +7,7 @@
 
 import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { getAdjustment, validateAdjustment } from "@/lib/api-mock";
+import { getAdjustment, validateAdjustment } from "@/lib/api";
 import { StockAdjustment } from "@/lib/types";
 import { StatusBadge } from "@/components/ui/status-badge";
 import { ConfirmDialog } from "@/components/ui/confirm-dialog";

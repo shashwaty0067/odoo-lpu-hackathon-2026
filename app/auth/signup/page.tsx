@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { signUp } from "@/lib/api-mock";
+import { signUp } from "@/lib/api";
 import { useToast } from "@/components/ui/toast";
 import { FormField, inputClass, PrimaryButton } from "@/components/ui/shared";
 

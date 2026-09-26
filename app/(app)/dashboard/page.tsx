@@ -13,7 +13,7 @@ import {
   getRecentActivity,
   getCategories,
   getWarehouses,
-} from "@/lib/api-mock";
+} from "@/lib/api";
 import { DashboardKpis, DashboardFilters, RecentActivity, Category, Warehouse } from "@/lib/types";
 import { StatusBadge } from "@/components/ui/status-badge";
 import {

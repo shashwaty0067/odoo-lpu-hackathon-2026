@@ -7,7 +7,7 @@
 import { useState, useEffect, useCallback, Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams, useRouter } from "next/navigation";
-import { getAdjustments } from "@/lib/api-mock";
+import { getAdjustments } from "@/lib/api";
 import { StockAdjustment, DocumentStatus } from "@/lib/types";
 import { StatusBadge } from "@/components/ui/status-badge";
 import {

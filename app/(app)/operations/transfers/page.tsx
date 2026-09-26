@@ -7,7 +7,7 @@
 import { useState, useEffect, useCallback, Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams, useRouter } from "next/navigation";
-import { getTransfers } from "@/lib/api-mock";
+import { getTransfers } from "@/lib/api";
 import { InternalTransfer, DocumentStatus } from "@/lib/types";
 import { StatusBadge } from "@/components/ui/status-badge";
 import {

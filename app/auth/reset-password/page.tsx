@@ -3,7 +3,7 @@
 import { useState, Suspense } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { verifyOtpAndResetPassword } from "@/lib/api-mock";
+import { verifyOtpAndResetPassword } from "@/lib/api";
 import { useToast } from "@/components/ui/toast";
 import { FormField, inputClass, PrimaryButton } from "@/components/ui/shared";
 

@@ -7,7 +7,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { createTransfer, getProducts, getAllLocations } from "@/lib/api-mock";
+import { createTransfer, getProducts, getAllLocations } from "@/lib/api";
 import { Product, Location, Warehouse } from "@/lib/types";
 import {
   PageHeader, FormField, inputClass, selectClass, PrimaryButton,

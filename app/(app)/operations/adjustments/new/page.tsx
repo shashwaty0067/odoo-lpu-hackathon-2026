@@ -8,7 +8,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { createAdjustment, getProducts, getAllLocations, getSystemQuantity } from "@/lib/api-mock";
+import { createAdjustment, getProducts, getAllLocations, getSystemQuantity } from "@/lib/api";
 import { Product, Location, Warehouse } from "@/lib/types";
 import {
   PageHeader, FormField, inputClass, selectClass, PrimaryButton,

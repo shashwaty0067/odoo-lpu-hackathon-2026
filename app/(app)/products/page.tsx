@@ -16,7 +16,7 @@ import {
   updateProduct,
   getProductStock,
   getWarehouses,
-} from "@/lib/api-mock";
+} from "@/lib/api";
 import {
   Product,
   Category,

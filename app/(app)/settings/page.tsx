@@ -7,7 +7,7 @@
 // ============================================================
 
 import { useState, useEffect } from "react";
-import { getCategories, createCategory, updateCategory } from "@/lib/api-mock";
+import { getCategories, createCategory, updateCategory } from "@/lib/api";
 import { Category } from "@/lib/types";
 import {
   PageHeader, EmptyState, ErrorState, FormField, inputClass, PrimaryButton,

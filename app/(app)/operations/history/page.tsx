@@ -7,7 +7,7 @@
 
 import { useState, useEffect, useCallback, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
-import { getStockLedger, getProducts, getAllLocations } from "@/lib/api-mock";
+import { getStockLedger, getProducts, getAllLocations } from "@/lib/api";
 import { StockLedgerEntry, OperationType, Product, Location, Warehouse } from "@/lib/types";
 import { StatusBadge } from "@/components/ui/status-badge";
 import {

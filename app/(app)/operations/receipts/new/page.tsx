@@ -11,7 +11,7 @@ import {
   createReceipt,
   getProducts,
   getAllLocations,
-} from "@/lib/api-mock";
+} from "@/lib/api";
 import { Product, Location, Warehouse } from "@/lib/types";
 import {
   PageHeader,

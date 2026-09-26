@@ -6,7 +6,7 @@
 
 import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { getTransfer, validateTransfer } from "@/lib/api-mock";
+import { getTransfer, validateTransfer } from "@/lib/api";
 import { InternalTransfer } from "@/lib/types";
 import { StatusBadge } from "@/components/ui/status-badge";
 import { ConfirmDialog } from "@/components/ui/confirm-dialog";

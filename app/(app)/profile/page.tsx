@@ -7,7 +7,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { updateProfile, changePassword } from "@/lib/api-mock";
+import { updateProfile, changePassword } from "@/lib/api";
 import {
   PageHeader, FormField, inputClass, PrimaryButton,
 } from "@/components/ui/shared";

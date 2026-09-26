@@ -8,7 +8,7 @@
 import { useState, useEffect, useCallback, Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams, useRouter } from "next/navigation";
-import { getReceipts, cancelReceipt } from "@/lib/api-mock";
+import { getReceipts, cancelReceipt } from "@/lib/api";
 import { Receipt, DocumentStatus } from "@/lib/types";
 import { StatusBadge } from "@/components/ui/status-badge";
 import { ConfirmDialog } from "@/components/ui/confirm-dialog";

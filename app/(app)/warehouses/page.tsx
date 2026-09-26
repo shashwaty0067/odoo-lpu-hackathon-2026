@@ -11,7 +11,7 @@ import {
   getWarehouses,
   createWarehouse,
   createLocation,
-} from "@/lib/api-mock";
+} from "@/lib/api";
 import { Warehouse, Location } from "@/lib/types";
 import {
   PageHeader,
